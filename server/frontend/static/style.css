@@ -124,3 +124,25 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.custom-img-size {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+  }
+
+.col-md-5::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 2px solid #dee2e6;
+    padding-right: 20px;
+  }
+
+.custom-card {
+    border-radius: 15px;
+  }
+  
